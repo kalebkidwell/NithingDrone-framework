@@ -1,0 +1,96 @@
+# NithingDrone Architecture
+
+## Overview
+
+NithingDrone is a modular autonomous decision framework that separates truth collection, validation, memory, decision making, economic analysis, and execution into independently testable layers.
+
+Each layer performs a single responsibility and communicates through structured decision objects rather than direct execution.
+
+This design emphasizes deterministic behavior, auditability, and controlled execution.
+
+---
+
+## Layered Architecture
+
+```
+Scourer
+    │
+    ▼
+Boundwarden
+    │
+    ▼
+Historian / Torhȳrn
+    │
+    ▼
+Quartermaster
+    │
+    ▼
+Tithe
+    │
+    ▼
+Executor Fleet
+```
+
+---
+
+## Responsibilities
+
+### Scourer
+
+* Signal collection
+* Truth normalization
+* Structured signal generation
+
+### Boundwarden
+
+* Opportunity assessment
+* Validation
+* Conservative classification
+
+### Historian / Torhȳrn
+
+* Historical context
+* Pattern recognition
+* Evidence support
+
+### Quartermaster
+
+* Decision authority
+* Deterministic routing
+* Execution feasibility
+* Go / No-Go evaluation
+
+### Tithe
+
+* Candidate discovery
+* Revenue classification
+* Economic analysis
+* Profitability evaluation
+* Opportunity selection
+
+### Executor Fleet
+
+* Controlled execution
+* Independent action modules
+* Audit-first operation
+
+---
+
+## Engineering Principles
+
+* Modular architecture
+* Deterministic workflows
+* Audit-first design
+* Proof-driven validation
+* Independent execution layers
+* Fail-closed decision making
+
+---
+
+## Technologies
+
+* JavaScript
+* TypeScript
+* Node.js
+* PowerShell
+* Git
