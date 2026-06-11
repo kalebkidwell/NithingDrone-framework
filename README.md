@@ -1,34 +1,20 @@
 # NithingDrone
 
-NithingDrone is a modular autonomous decision architecture built around layered validation, deterministic routing, audit-first design, and independently testable components.
+NithingDrone is a modular autonomous decision framework built in JavaScript and TypeScript around layered validation, deterministic routing, audit-first engineering, and independently testable components.
 
-It is designed to evaluate opportunities through separate truth, judgment, memory, decision, economic, and execution layers so that action only occurs when evidence, feasibility, and authorization align.
-
----
-
-## What is NithingDrone?
-
-NithingDrone is not a simple bot or single-script automation tool.
-
-It is a structured decision engine that separates:
-
-* Signal collection
-* Opportunity classification
-* Historical evidence
-* Decision authority
-* Economic evaluation
-* Execution permission
-* Audit and verification
-
-The system prioritizes correctness, traceability, and controlled execution over speed.
+Rather than relying on a single execution process, the system separates truth collection, opportunity classification, historical context, decision authority, economic analysis, and execution into distinct layers.
 
 ---
 
-## Core Philosophy
+## Overview
 
-> Signals are shared. Decisions are centralized. Execution is exclusive.
+NithingDrone is designed around a simple engineering principle:
 
-Each component has a specific responsibility. No single layer is allowed to collect data, judge validity, authorize action, and execute independently.
+> **Signals are shared. Decisions are centralized. Execution is exclusive.**
+
+Each subsystem performs a single responsibility and produces structured outputs that can be validated by the next layer, creating a deterministic and auditable decision pipeline.
+
+The project emphasizes correctness, traceability, and modular system design over opaque automation.
 
 ---
 
@@ -36,120 +22,95 @@ Each component has a specific responsibility. No single layer is allowed to coll
 
 ### Scourer — Truth Layer
 
-Collects raw signals, maintains signal receipts, and supports truth integrity checks.
+Collects and normalizes signals while supporting truth integrity validation.
 
 ### Boundwarden — Judgment Layer
 
-Classifies opportunities through conservative validation and structured assessment logic.
+Classifies opportunities using structured validation and conservative assessment logic.
 
 ### Historian / Torhȳrn — Memory Layer
 
-Provides bounded historical evidence, pattern recognition, and similarity-based context.
+Provides bounded historical evidence and pattern-based context.
 
 ### Quartermaster — Decision Layer
 
-Evaluates feasibility, capital posture, execution reality, and go/no-go authority.
+Produces deterministic decision packets, evaluates execution feasibility, and enforces go/no-go authority.
 
-### Tithe — Monetization Executor
+### Tithe — Monetization Framework
 
-Handles reward discovery, revenue classification, economic evaluation, candidate validation, and monetization-specific proof workflows.
+Implements reward discovery, revenue classification, candidate validation, opportunity ranking, and economic evaluation workflows.
 
-### Executor Fleet — Action Layer
+### Executor Fleet
 
-Specialized executors act only when explicitly authorized by the decision layer.
+Specialized execution modules operate only after explicit authorization from the decision layer.
 
 ---
 
 ## Current Capabilities
 
-NithingDrone currently includes:
-
-* Layered signal collection
+* Modular layered architecture
 * Truth integrity validation
-* Judgment and opportunity classification
-* Deterministic routing
-* Opportunity packet construction
-* Quartermaster decision receipts
-* Go/no-go authority modeling
-* Capital mode enforcement
-* Execution reality gating
-* Candidate collection pipeline
-* Candidate validation layer
+* Deterministic decision routing
+* Opportunity classification
+* Candidate collection and validation
 * Candidate deduplication
-* Candidate metadata construction
 * Opportunity ranking and selection
 * Revenue source classification
 * Revenue family routing
-* Revenue handler registry
 * Revenue handler resolution
 * Economic decision pipeline
 * Profitability analysis
 * Gas cost estimation
 * Net profit calculation
 * Reward valuation
-* Proof-based validation scripts
-* Audit-first documentation workflow
+* Audit-first workflows
+* Proof-driven validation scripts
 
 ---
 
-## Verification Model
+## Verification
 
-NithingDrone uses proof scripts to verify major subsystems before they are treated as complete.
+Major subsystems are accompanied by proof scripts that verify expected behavior before integration.
 
-Examples include validation for:
+Representative verification includes:
 
 * Reward candidate scanning
-* Reward source registry
 * Revenue classification
 * Revenue family routing
 * Revenue handler resolution
-* Candidate collection
-* Economic pipeline behavior
+* Economic pipeline validation
 * Profitability gating
-* Gas cost estimation
+* Opportunity selection
 * Wallet reward reading
 
-This proof-oriented workflow is used to keep the system modular, testable, and auditable as it expands.
-
----
-
-## Current System State
-
-NithingDrone can distinguish between:
-
-* Invalid opportunities that fail truth validation
-* Valid opportunities that fail execution reality
-* Opportunities requiring economic rejection
-* Candidate opportunities requiring classification, ranking, or selection
-* Revenue sources requiring routing to the correct handler family
-
-The system has moved beyond basic routing and now includes monetization classification, economic evaluation, and proof-backed validation components.
+This verification-first approach keeps the architecture modular, testable, and auditable as new components are added.
 
 ---
 
 ## Active Development
 
-Current development is focused on:
+Current work focuses on:
 
-* Expanding route validation coverage
-* Improving liquidity modeling
-* Refining risk envelope enforcement
-* Adding additional execution adapters
-* Improving portfolio documentation
-* Separating public portfolio examples from private production logic
+* Expanded route validation
+* Enhanced liquidity modeling
+* Risk envelope refinement
+* Additional execution adapters
+* Documentation and portfolio improvements
 
 ---
 
-## Portfolio Note
+## Technologies
 
-This repository may contain representative components of the NithingDrone architecture. Production execution logic, sensitive configuration, private runtime data, and proprietary implementation details may be intentionally omitted.
+* JavaScript
+* TypeScript
+* Node.js
+* PowerShell
+* Git
 
 ---
 
 ## Summary
 
-NithingDrone is a decision engine built around a simple rule:
+NithingDrone is a modular autonomous decision framework that separates truth collection, judgment, memory, economics, decision authority, and execution into independently testable layers.
 
-> It refuses to act unless truth, logic, economics, and execution authority agree.
-
-The project demonstrates modular system design, audit-first development, deterministic decision workflows, and verification-driven engineering.
+The project demonstrates modular architecture, deterministic workflows, audit-first engineering, and proof-driven development practices for building complex software systems.
