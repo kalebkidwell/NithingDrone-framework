@@ -33,11 +33,37 @@ The implementation process is heavily AI-assisted. The value of this project is 
 
 ## Design Philosophy
 
-NithingDrone is built around a simple principle:
+# Repository At A Glance
 
-> **Complex systems become more reliable when responsibilities are separated into independently understandable and verifiable layers.**
+| Attribute                        | Description                                                    |
+| -------------------------------- | -------------------------------------------------------------- |
+| **Project Status**               | Active Development                                             |
+| **Started**                      | 2024                                                           |
+| **Development Model**            | AI-Assisted                                                    |
+| **Estimated Project Investment** | 600+ Hours                                                     |
+| **Repository Purpose**           | Independent Systems Design & Workflow Exploration              |
+| **Primary Focus**                | Architecture, Documentation, Validation, Iterative Development |
+| **Version Control**              | Git / GitHub                                                   |
+| **Languages**                    | JavaScript, TypeScript, PowerShell                             |
+| **Documentation Style**          | Documentation-First                                            |
+| **Architecture Style**           | Modular, Layered, Independently Verifiable                     |
 
-Each subsystem has a defined purpose, documented boundaries, and structured outputs that can be reviewed before progressing through the system. The project emphasizes clarity, maintainability, and traceability over opaque automation.
+---
+
+## Repository Objectives
+
+NithingDrone is maintained as a long-term exploration of:
+
+* Modular systems architecture
+* AI-assisted software development
+* Workflow organization
+* Layered validation
+* Repository organization
+* Documentation-first engineering
+* Long-term iterative refinement
+
+The project intentionally prioritizes maintainability, clarity, and structured evolution over rapid feature development.
+
 
 ---
 
