@@ -12,7 +12,7 @@ Rather than treating AI as an autocomplete tool, this project treats AI as an im
 
 ## Dashboard Preview
 
-![NithingDrone Dashboard Overview](https://raw.githubusercontent.com/kalebkidwell/NithingDrone-framework/main/assets/dashboard/dashboard-overview.png)
+![NithingDrone Dashboard](assets/dashboard/dashboard-home.png)
 
 _Current development dashboard showing the project interface in its present portfolio state._
 
