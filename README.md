@@ -28,6 +28,94 @@ NithingDrone is built around the idea that a software system should become more 
 
 The architecture is organized into two complementary domains:
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+        DECISION COMPRESSION PIPELINE
+
+Reducing large opportunity spaces into
+small sets of evidence-backed actions.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+12,483 External Signals
+            │
+            ▼
+      ┌───────────────┐
+      │   SCOURER     │
+      │ Truth Layer   │
+      └───────────────┘
+            │
+     4,317 Structured Signals
+            │
+            ▼
+      ┌───────────────┐
+      │ BOUNDWARDEN   │
+      │ Validation    │
+      └───────────────┘
+            │
+      612 Valid Candidates
+            │
+            ▼
+      ┌───────────────┐
+      │ HISTORIAN     │
+      │ TORHȲRN       │
+      └───────────────┘
+            │
+      148 Ranked Options
+            │
+            ▼
+      ┌───────────────┐
+      │QUARTERMASTER  │
+      │Decision Layer │
+      └───────────────┘
+            │
+      17 Approved Actions
+            │
+            ▼
+      ┌───────────────┐
+      │    TITHE      │
+      │ Economics     │
+      └───────────────┘
+            │
+       5 Executable Actions
+            │
+            ▼
+      ┌───────────────┐
+      │EXECUTOR FLEET │
+      └───────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Every layer reduces uncertainty before
+execution is permitted.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                    OBSERVE
+
+                       ▲
+
+                       │
+
+LEARN ◄──────────────────────── EXECUTE
+
+  ▲                                │
+
+  │                                │
+
+  │                                ▼
+
+VALIDATE ─────────────────────► DECIDE
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Every completed execution produces
+structured evidence that strengthens
+future validation and decision quality.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 ### Logic Layers
 
 The logic layers are responsible for observing information, validating candidates, incorporating historical context, compressing complex inputs into explicit decisions, and evaluating economic feasibility.
