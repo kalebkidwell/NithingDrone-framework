@@ -6,15 +6,11 @@ NithingDrone is an independent AI-assisted systems design project exploring modu
 
 Rather than treating AI as an autocomplete tool, this project treats AI as an implementation collaborator operating within a human-defined architecture. The emphasis is on designing coherent systems, defining clear boundaries, validating behavior, maintaining documentation, and continuously refining the overall structure as the project evolves.
 
----
----
----
-
 ## Dashboard Preview
 
-![NithingDrone Dashboard](assets/dashboard/dashboard-home.png)
+![NithingDrone Dashboard](assets/dashboard/dashboard-preview.gif)
 
-_Current development dashboard showing the project interface in its present portfolio state._
+*Current development dashboard demonstrating the project's interface and organizational structure.*
 
 ---
 
