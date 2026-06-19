@@ -1,174 +1,147 @@
 # NithingDrone
 
-> Complex systems become understandable when every responsibility has a place, every decision has context, and every component can stand on its own.
+> **Complex systems become understandable when every responsibility has a place, every decision has context, and every component can stand on its own.**
 
-NithingDrone is a long-term personal project that explores how complex software systems can be designed, organized, and continuously refined through AI-assisted development.
+NithingDrone is an independent AI-assisted systems design project exploring modular architecture, structured decision workflows, technical documentation, and long-term iterative development.
 
-I started this project to answer a simple question:
+Rather than treating AI as an autocomplete tool, this project treats AI as an implementation collaborator operating within a human-defined architecture. The emphasis is on designing coherent systems, defining clear boundaries, validating behavior, maintaining documentation, and continuously refining the overall structure as the project evolves.
 
-**Can a single person, working with modern AI tools, design and maintain a large, modular system that remains understandable as it grows?**
+---
 
-Over the course of 600+ hours, the project has evolved into an ongoing study of systems architecture, workflow design, technical documentation, repository organization, and iterative development.
+# Project Overview
 
-My contribution is not the claim that every line of code was written manually. Instead, this repository represents my work defining architecture, decomposing problems into modules, writing specifications, directing AI-assisted implementation, reviewing outputs, organizing documentation, and maintaining long-term consistency across the project.
+|                                  |                                                                    |
+| -------------------------------- | ------------------------------------------------------------------ |
+| **Status**                       | Active Development                                                 |
+| **Started**                      | 2024                                                               |
+| **Development Model**            | AI-Assisted                                                        |
+| **Estimated Project Investment** | 600+ Hours                                                         |
+| **Repository Purpose**           | Independent Systems Design & Workflow Exploration                  |
+| **Version Control**              | Git / GitHub                                                       |
+| **Primary Focus**                | Architecture, Documentation, Validation, and Iterative Development |
 
-The result is an evolving engineering notebook—a record of how a complex technical system can be conceived, structured, validated, and improved over time.
+---
 
+# Why This Project Exists
 
-## About This Repository
+NithingDrone began as an attempt to answer a simple question:
 
-* **Project Status:** Active Development
-* **Started:** 2024
-* **Development Model:** AI-Assisted
-* **Estimated Project Investment:** 600+ Hours
-* **Primary Focus:** Systems Design, Workflow Architecture, Documentation, Repository Organization, and Iterative Development
+> **Can a single person, working with modern AI tools, design and maintain a large modular software system that remains understandable as it grows?**
 
-## My Role
+Over time the repository evolved into a long-term exploration of:
 
-This repository represents my work designing and directing the evolution of the system.
+* Systems architecture
+* Workflow organization
+* Documentation-first engineering
+* Modular design
+* Repository organization
+* AI-assisted development practices
+* Long-term maintainability
+
+The objective is not to build software as quickly as possible, but to explore how complex systems can remain organized, explainable, and continuously improvable through careful design.
+
+---
+
+# My Contribution
+
+This repository represents my work designing and directing the evolution of the project.
 
 My responsibilities include:
 
-* Defining architecture and long-term project direction
-* Breaking complex problems into modular components
+* Defining overall architecture
+* Breaking complex problems into modular responsibilities
 * Writing functional specifications
 * Directing AI-assisted implementation
 * Reviewing and refining generated code
-* Organizing repository structure and documentation
-* Maintaining consistency across independent subsystems
+* Organizing repository structure
+* Maintaining documentation
+* Preserving consistency across independent subsystems
 * Iteratively improving workflows through testing and revision
 
-The implementation process is heavily AI-assisted. The value of this project is intended to demonstrate systems thinking, project organization, technical communication, and long-term iterative development rather than claim sole authorship of every line of source code.
+The implementation process is heavily AI-assisted.
 
-## Design Philosophy
-
-# Repository At A Glance
-
-| Attribute                        | Description                                                    |
-| -------------------------------- | -------------------------------------------------------------- |
-| **Project Status**               | Active Development                                             |
-| **Started**                      | 2024                                                           |
-| **Development Model**            | AI-Assisted                                                    |
-| **Estimated Project Investment** | 600+ Hours                                                     |
-| **Repository Purpose**           | Independent Systems Design & Workflow Exploration              |
-| **Primary Focus**                | Architecture, Documentation, Validation, Iterative Development |
-| **Version Control**              | Git / GitHub                                                   |
-| **Languages**                    | JavaScript, TypeScript, PowerShell                             |
-| **Documentation Style**          | Documentation-First                                            |
-| **Architecture Style**           | Modular, Layered, Independently Verifiable                     |
+The purpose of this repository is not to claim sole authorship of every line of source code, but to demonstrate systems thinking, technical communication, project organization, architectural planning, and long-term iterative development.
 
 ---
 
-## Repository Objectives
+# System Organization
 
-NithingDrone is maintained as a long-term exploration of:
+| Layer                   | Responsibility                                              |
+| ----------------------- | ----------------------------------------------------------- |
+| **Scourer**             | Signal collection and normalization                         |
+| **Boundwarden**         | Structured validation and assessment                        |
+| **Historian / Torhȳrn** | Historical context and memory                               |
+| **Quartermaster**       | Decision authority and execution gating                     |
+| **Tithe**               | Opportunity evaluation and economic workflows               |
+| **Executor Fleet**      | Specialized execution modules operating after authorization |
+
+Every subsystem is intentionally designed around a single responsibility and produces structured outputs that can be reviewed independently before progressing through the system.
+
+---
+
+# Current Areas of Exploration
 
 * Modular systems architecture
-* AI-assisted software development
+* Layered validation pipelines
 * Workflow organization
-* Layered validation
-* Repository organization
-* Documentation-first engineering
-* Long-term iterative refinement
-
-The project intentionally prioritizes maintainability, clarity, and structured evolution over rapid feature development.
-
-
----
-
-## Architecture
-
-### Scourer — Truth Layer
-
-Collects and normalizes signals while supporting truth integrity validation.
-
-### Boundwarden — Judgment Layer
-
-Classifies opportunities using structured validation and conservative assessment logic.
-
-### Historian / Torhȳrn — Memory Layer
-
-Provides bounded historical evidence and pattern-based context.
-
-### Quartermaster — Decision Layer
-
-Produces deterministic decision packets, evaluates execution feasibility, and enforces go/no-go authority.
-
-### Tithe — Monetization Framework
-
-Implements reward discovery, revenue classification, candidate validation, opportunity ranking, and economic evaluation workflows.
-
-### Executor Fleet
-
-Specialized execution modules operate only after explicit authorization from the decision layer.
-
----
-
-## Current Capabilities
-
-* Modular layered architecture
-* Truth integrity validation
-* Deterministic decision routing
 * Opportunity classification
-* Candidate collection and validation
-* Candidate deduplication
-* Opportunity ranking and selection
-* Revenue source classification
-* Revenue family routing
-* Revenue handler resolution
-* Economic decision pipeline
-* Profitability analysis
-* Gas cost estimation
-* Net profit calculation
-* Reward valuation
-* Audit-first workflows
-* Proof-driven validation scripts
+* Economic evaluation workflows
+* Documentation-first engineering
+* Proof-driven development
+* AI-assisted iterative refinement
 
 ---
 
-## Verification
+# Development Methodology
 
-Major subsystems are accompanied by proof scripts that verify expected behavior before integration.
+Every major feature begins as a written specification rather than an implementation task.
+
+The general workflow is:
+
+**Architecture → Specification → AI-Assisted Implementation → Review → Documentation → Validation → Refinement**
+
+This process prioritizes long-term maintainability and repository coherence over rapid feature development.
+
+---
+
+# Verification Philosophy
+
+Major subsystems are accompanied by proof scripts and validation workflows before integration.
 
 Representative verification includes:
 
-* Reward candidate scanning
-* Revenue classification
+* Opportunity classification
 * Revenue family routing
-* Revenue handler resolution
 * Economic pipeline validation
 * Profitability gating
-* Opportunity selection
+* Reward discovery
+* Candidate selection
 * Wallet reward reading
 
-This verification-first approach keeps the architecture modular, testable, and auditable as new components are added.
+The objective is to keep the architecture modular, testable, and understandable as additional functionality is introduced.
 
 ---
 
-## Active Development
-
-Current work focuses on:
-
-* Expanded route validation
-* Enhanced liquidity modeling
-* Risk envelope refinement
-* Additional execution adapters
-* Documentation and portfolio improvements
-
----
-
-## Technologies
+# Development Stack
 
 * JavaScript
 * TypeScript
 * Node.js
 * PowerShell
-* Git
+* Git / GitHub
+* AI-Assisted Development
 
 ---
 
-## Summary
+# Repository Philosophy
 
-NithingDrone is a modular autonomous decision framework that separates truth collection, judgment, memory, economics, decision authority, and execution into independently testable layers.
+NithingDrone is an evolving engineering notebook documenting the design and organization of complex AI-assisted software systems.
 
-The project demonstrates modular architecture, deterministic workflows, audit-first engineering, and proof-driven development practices for building complex software systems.
+The project is intended to demonstrate a way of thinking:
+
+* Define clear responsibilities.
+* Separate concerns.
+* Document decisions.
+* Validate behavior.
+* Refine continuously.
+* Keep complexity understandable as the system grows.
