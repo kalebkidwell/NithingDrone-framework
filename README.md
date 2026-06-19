@@ -1,20 +1,43 @@
 # NithingDrone
 
-NithingDrone is a modular autonomous decision framework built in JavaScript and TypeScript around layered validation, deterministic routing, audit-first engineering, and independently testable components.
+An independent AI-assisted systems design project exploring modular decision architecture, structured workflows, layered validation, and long-term maintainability.
 
-Rather than relying on a single execution process, the system separates truth collection, opportunity classification, historical context, decision authority, economic analysis, and execution into distinct layers.
+NithingDrone began as an experiment in organizing complex decision making into small, independently understandable components. Over time, it has evolved into a long-term study of AI-native software development, documentation-first engineering, and iterative systems design.
 
----
+Rather than presenting AI as an autocomplete tool, the project treats AI as an implementation collaborator operating within a human-defined architecture. The primary focus is on designing coherent systems, writing clear specifications, maintaining documentation, validating behavior, and continuously refining the overall structure.
 
-## Overview
+## About This Repository
 
-NithingDrone is designed around a simple engineering principle:
+* **Project Status:** Active Development
+* **Started:** 2024
+* **Development Model:** AI-Assisted
+* **Estimated Project Investment:** 600+ Hours
+* **Primary Focus:** Systems Design, Workflow Architecture, Documentation, Repository Organization, and Iterative Development
 
-> **Signals are shared. Decisions are centralized. Execution is exclusive.**
+## My Role
 
-Each subsystem performs a single responsibility and produces structured outputs that can be validated by the next layer, creating a deterministic and auditable decision pipeline.
+This repository represents my work designing and directing the evolution of the system.
 
-The project emphasizes correctness, traceability, and modular system design over opaque automation.
+My responsibilities include:
+
+* Defining architecture and long-term project direction
+* Breaking complex problems into modular components
+* Writing functional specifications
+* Directing AI-assisted implementation
+* Reviewing and refining generated code
+* Organizing repository structure and documentation
+* Maintaining consistency across independent subsystems
+* Iteratively improving workflows through testing and revision
+
+The implementation process is heavily AI-assisted. The value of this project is intended to demonstrate systems thinking, project organization, technical communication, and long-term iterative development rather than claim sole authorship of every line of source code.
+
+## Design Philosophy
+
+NithingDrone is built around a simple principle:
+
+> **Complex systems become more reliable when responsibilities are separated into independently understandable and verifiable layers.**
+
+Each subsystem has a defined purpose, documented boundaries, and structured outputs that can be reviewed before progressing through the system. The project emphasizes clarity, maintainability, and traceability over opaque automation.
 
 ---
 
