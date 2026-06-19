@@ -28,6 +28,35 @@ If you're visiting for the first time, this is a good place to start.
 | Documentation | Additional architecture and design notes |
 
 This repository is intended to be read as an engineering notebook documenting the design, organization, and evolution of a long-term AI-assisted software project rather than as a finished commercial product.
+
+## Engineering Principles
+
+Several principles guide every architectural decision in this repository.
+
+### Single Responsibility
+
+Each subsystem is designed to perform one primary responsibility and expose structured outputs rather than hidden internal state.
+
+### Documentation Before Implementation
+
+Major features begin as written specifications before implementation is attempted.
+
+### Layered Validation
+
+Information progresses through multiple independent validation layers rather than a single execution path.
+
+### Iterative Development
+
+The project evolves through repeated cycles of specification, implementation, review, documentation, and refinement.
+
+### AI as an Engineering Tool
+
+AI is used as an implementation collaborator rather than an autonomous developer. Architecture, decomposition, documentation, review, organization, and long-term direction remain human-driven responsibilities.
+
+### Long-Term Maintainability
+
+The repository prioritizes clarity, organization, and explainability over rapid feature expansion.
+
 # Project Overview
 
 |                                  |                                                                    |
