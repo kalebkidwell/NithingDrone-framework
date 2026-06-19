@@ -76,3 +76,145 @@ As additional capabilities are introduced, the execution ecosystem expands while
 
 The result is a software ecosystem designed to continuously refine observation, reasoning, economic evaluation, and execution through long-term iterative development.
 
+# Project Overview
+
+| Attribute                | Value                                                                      |
+| ------------------------ | -------------------------------------------------------------------------- |
+| **Project Status**       | Active Development                                                         |
+| **Started**              | 2024                                                                       |
+| **Development Model**    | AI-Assisted                                                                |
+| **Estimated Investment** | 600+ Hours                                                                 |
+| **Repository Purpose**   | Independent Systems Design Exploration                                     |
+| **Primary Focus**        | Modular Architecture, Documentation, Validation, and Iterative Development |
+| **Version Control**      | Git / GitHub                                                               |
+
+NithingDrone began as an attempt to answer a practical engineering question:
+
+> **Can a single person, working alongside modern AI tools, design and maintain a large modular software system that remains understandable as it grows?**
+
+Rather than optimizing for rapid feature development, the project prioritizes architectural clarity, documentation, validation, maintainability, and long-term evolution.
+
+The repository serves as an ongoing study of systems organization, AI-assisted development, and evidence-driven software design.
+
+---
+
+# My Contribution
+
+This repository represents my work designing, organizing, and directing the evolution of the project.
+
+My responsibilities include:
+
+* Defining overall system architecture
+* Decomposing complex problems into modular responsibilities
+* Writing functional specifications
+* Directing AI-assisted implementation
+* Reviewing and refining generated code
+* Organizing repository structure
+* Maintaining technical documentation
+* Preserving consistency across independent subsystems
+* Iteratively improving workflows through testing and revision
+
+Implementation throughout the repository is intentionally AI-assisted.
+
+The purpose of this project is not to claim sole authorship of every line of source code, but to demonstrate systems thinking, architectural planning, technical communication, long-term project organization, and the ability to coordinate complex software development using modern AI tools as part of the engineering process.
+
+---
+
+# System Architecture
+
+The architecture intentionally separates responsibilities into independent layers so that observation, validation, reasoning, economics, and execution can evolve without unnecessary coupling.
+
+| Layer                   | Primary Responsibility                         |
+| ----------------------- | ---------------------------------------------- |
+| **Scourer**             | Signal collection and normalization            |
+| **Boundwarden**         | Structured validation and candidate assessment |
+| **Historian / Torhȳrn** | Historical context and reusable evidence       |
+| **Quartermaster**       | Decision authority and execution gating        |
+| **Tithe**               | Economic evaluation and opportunity analysis   |
+| **Executor Fleet**      | Specialized execution capabilities             |
+
+Each layer is designed around a single responsibility and produces structured outputs that can be independently reviewed before progressing through the system.
+
+This separation allows individual capabilities to evolve without requiring changes across the entire architecture while preserving a deterministic and auditable decision pipeline.
+
+# Engineering Approach
+
+The project follows a documentation-first, architecture-driven development process intended to preserve clarity as the system grows.
+
+Several principles guide every architectural decision.
+
+### Single Responsibility
+
+Each subsystem performs one primary responsibility and exposes structured outputs rather than hidden internal state.
+
+### Documentation Before Implementation
+
+Major features begin as written specifications before implementation is attempted, allowing architecture and intent to remain stable throughout development.
+
+### Layered Validation
+
+Information progresses through multiple independent validation layers rather than a single execution path, making decisions easier to understand, audit, and refine.
+
+### AI-Assisted Engineering
+
+AI is treated as an implementation collaborator operating within human-defined architectural boundaries. System design, decomposition, documentation, review, and long-term direction remain deliberate engineering responsibilities.
+
+### Iterative Refinement
+
+Development follows a continuous cycle:
+
+**Architecture → Specification → AI-Assisted Implementation → Review → Documentation → Validation → Refinement**
+
+The objective is long-term maintainability and organizational coherence rather than rapid feature expansion.
+
+---
+
+# Implementation
+
+### Primary Technologies
+
+* JavaScript
+* TypeScript
+* Node.js
+* PowerShell
+* Git / GitHub
+
+### Development Practices
+
+Major subsystems are accompanied by validation workflows and proof scripts before integration.
+
+Representative verification includes:
+
+* Opportunity classification
+* Candidate validation
+* Revenue family routing
+* Economic evaluation
+* Profitability gating
+* Reward discovery
+* Structured decision routing
+
+The repository emphasizes deterministic behavior, independent verification, modular responsibilities, and documentation that evolves alongside implementation.
+
+---
+
+# Repository Philosophy
+
+NithingDrone is maintained as an evolving engineering notebook documenting the design, organization, and long-term refinement of complex AI-assisted software systems.
+
+The repository is intended to demonstrate a way of thinking rather than a finished product.
+
+Its guiding principles are simple:
+
+* Define clear responsibilities.
+* Separate concerns.
+* Document decisions.
+* Validate behavior.
+* Learn from execution.
+* Refine continuously.
+* Keep complexity understandable as the system grows.
+
+Every new capability is designed to contribute value twice:
+
+**once through specialized execution, and again by improving the decision architecture through structured historical evidence.**
+
+
