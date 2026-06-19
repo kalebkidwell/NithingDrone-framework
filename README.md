@@ -13,7 +13,21 @@ Rather than treating AI as an autocomplete tool, this project treats AI as an im
 *Current development dashboard demonstrating the project's interface and organizational structure.*
 
 ---
+## Repository Guide
 
+If you're visiting for the first time, this is a good place to start.
+
+| Section | Purpose |
+|--------------------------|------------------------------------------------|
+| Dashboard Preview | Current interface and active development state |
+| Project Overview | Goals, philosophy, and development approach |
+| My Contribution | Scope of my role in the project |
+| System Organization | High-level subsystem responsibilities |
+| Development Methodology | AI-assisted workflow and iteration process |
+| Verification Philosophy | Validation and proof-driven development |
+| Documentation | Additional architecture and design notes |
+
+This repository is intended to be read as an engineering notebook documenting the design, organization, and evolution of a long-term AI-assisted software project rather than as a finished commercial product.
 # Project Overview
 
 |                                  |                                                                    |
