@@ -28,68 +28,57 @@ NithingDrone is built around the idea that a software system should become more 
 
 The architecture is organized into two complementary domains:
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                     LAYERED DECISION COMPRESSION
 
-        DECISION COMPRESSION PIPELINE
-
-Reducing large opportunity spaces into
-small sets of evidence-backed actions.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-12,483 External Signals
-            │
-            ▼
-      ┌───────────────┐
-      │   SCOURER     │
-      │ Truth Layer   │
-      └───────────────┘
-            │
-     4,317 Structured Signals
-            │
-            ▼
-      ┌───────────────┐
-      │ BOUNDWARDEN   │
-      │ Validation    │
-      └───────────────┘
-            │
-      612 Valid Candidates
-            │
-            ▼
-      ┌───────────────┐
-      │ HISTORIAN     │
-      │ TORHȲRN       │
-      └───────────────┘
-            │
-      148 Ranked Options
-            │
-            ▼
-      ┌───────────────┐
-      │QUARTERMASTER  │
-      │Decision Layer │
-      └───────────────┘
-            │
-      17 Approved Actions
-            │
-            ▼
-      ┌───────────────┐
-      │    TITHE      │
-      │ Economics     │
-      └───────────────┘
-            │
-       5 Executable Actions
-            │
-            ▼
-      ┌───────────────┐
-      │EXECUTOR FLEET │
-      └───────────────┘
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-Every layer reduces uncertainty before
-execution is permitted.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+              Thousands of External Opportunities
+                              │
+                              ▼
+                     ┌─────────────────┐
+                     │    SCOURER      │
+                     │  Truth Layer    │
+                     └─────────────────┘
+                              │
+                     12,483 Raw Signals
+                              │
+                              ▼
+                     ┌─────────────────┐
+                     │  BOUNDWARDEN    │
+                     │   Validation    │
+                     └─────────────────┘
+                              │
+                  4,317 Structured Candidates
+                              │
+                              ▼
+                     ┌─────────────────┐
+                     │ HISTORIAN       │
+                     │ TORHȲRN         │
+                     │ Context Layer   │
+                     └─────────────────┘
+                              │
+                  612 Evidence-Backed Opportunities
+                              │
+                              ▼
+                     ┌─────────────────┐
+                     │ QUARTERMASTER   │
+                     │ Decision Layer  │
+                     └─────────────────┘
+                              │
+                     148 Ranked Decisions
+                              │
+                              ▼
+                     ┌─────────────────┐
+                     │     TITHE       │
+                     │ Economic Layer  │
+                     └─────────────────┘
+                              │
+                     17 Economically Viable Actions
+                              │
+                              ▼
+                     ┌─────────────────┐
+                     │ EXECUTOR FLEET  │
+                     └─────────────────┘
+                              │
+                     5 Authorized Executions
 
                     OBSERVE
 
