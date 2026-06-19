@@ -8,6 +8,7 @@ Rather than treating AI as an autocomplete tool, this project treats AI as an im
 
 ---
 ---
+---
 
 ## Dashboard Preview
 
@@ -16,6 +17,7 @@ Rather than treating AI as an autocomplete tool, this project treats AI as an im
 _Current development dashboard showing the project interface in its present portfolio state._
 
 ---
+
 # Project Overview
 
 |                                  |                                                                    |
