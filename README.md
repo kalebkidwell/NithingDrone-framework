@@ -22,64 +22,58 @@ This repository documents that ongoing process as an evolving engineering notebo
 
 ---
 
-# Capability Ecosystem
+                    LAYERED DECISION COMPRESSION
 
-NithingDrone is built around the idea that a software system should become more capable over time by separating reasoning from execution while allowing both to continuously improve together.
+        Reducing broad opportunity spaces into
+        evidence-backed actions through layered validation.
 
-The architecture is organized into two complementary domains:
-
-                     LAYERED DECISION COMPRESSION
-
-              Thousands of External Opportunities
-                              │
-                              ▼
-                     ┌─────────────────┐
-                     │    SCOURER      │
-                     │  Truth Layer    │
-                     └─────────────────┘
-                              │
-                     12,483 Raw Signals
-                              │
-                              ▼
-                     ┌─────────────────┐
-                     │  BOUNDWARDEN    │
-                     │   Validation    │
-                     └─────────────────┘
-                              │
-                  4,317 Structured Candidates
-                              │
-                              ▼
-                     ┌─────────────────┐
-                     │ HISTORIAN       │
-                     │ TORHȲRN         │
-                     │ Context Layer   │
-                     └─────────────────┘
-                              │
-                  612 Evidence-Backed Opportunities
-                              │
-                              ▼
-                     ┌─────────────────┐
-                     │ QUARTERMASTER   │
-                     │ Decision Layer  │
-                     └─────────────────┘
-                              │
-                     148 Ranked Decisions
-                              │
-                              ▼
-                     ┌─────────────────┐
-                     │     TITHE       │
-                     │ Economic Layer  │
-                     └─────────────────┘
-                              │
-                     17 Economically Viable Actions
-                              │
-                              ▼
-                     ┌─────────────────┐
-                     │ EXECUTOR FLEET  │
-                     └─────────────────┘
-                              │
-                     5 Authorized Executions
-
+                         External Opportunities
+                                    │
+                                    ▼
+      ┌──────────────────────────────────────────────────┐
+      │                    SCOURER                      │
+      │         Signal Collection & Normalization       │
+      └──────────────────────────────────────────────────┘
+                                    │
+                              Raw Signals
+                                    │
+                                    ▼
+      ┌──────────────────────────────────────────────────┐
+      │                 BOUNDWARDEN                     │
+      │            Structured Validation               │
+      └──────────────────────────────────────────────────┘
+                                    │
+                        Structured Candidates
+                                    │
+                                    ▼
+      ┌──────────────────────────────────────────────────┐
+      │             HISTORIAN / TORHȲRN                 │
+      │        Historical Context & Evidence           │
+      └──────────────────────────────────────────────────┘
+                                    │
+                     Evidence-Backed Opportunities
+                                    │
+                                    ▼
+      ┌──────────────────────────────────────────────────┐
+      │                QUARTERMASTER                    │
+      │          Decision Authority & Ranking          │
+      └──────────────────────────────────────────────────┘
+                                    │
+                          Ranked Candidate Set
+                                    │
+                                    ▼
+      ┌──────────────────────────────────────────────────┐
+      │                     TITHE                       │
+      │            Economic Evaluation                 │
+      └──────────────────────────────────────────────────┘
+                                    │
+                      Economically Viable Actions
+                                    │
+                                    ▼
+      ┌──────────────────────────────────────────────────┐
+      │               EXECUTOR FLEET                    │
+      │            Specialized Capabilities            │
+      └──────────────────────────────────────────────────┘
                     OBSERVE
 
                        ▲
