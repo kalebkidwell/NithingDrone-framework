@@ -1,10 +1,19 @@
 # NithingDrone
 
-An independent AI-assisted systems design project exploring modular decision architecture, structured workflows, layered validation, and long-term maintainability.
+> Complex systems become understandable when every responsibility has a place, every decision has context, and every component can stand on its own.
 
-NithingDrone began as an experiment in organizing complex decision making into small, independently understandable components. Over time, it has evolved into a long-term study of AI-native software development, documentation-first engineering, and iterative systems design.
+NithingDrone is a long-term personal project that explores how complex software systems can be designed, organized, and continuously refined through AI-assisted development.
 
-Rather than presenting AI as an autocomplete tool, the project treats AI as an implementation collaborator operating within a human-defined architecture. The primary focus is on designing coherent systems, writing clear specifications, maintaining documentation, validating behavior, and continuously refining the overall structure.
+I started this project to answer a simple question:
+
+**Can a single person, working with modern AI tools, design and maintain a large, modular system that remains understandable as it grows?**
+
+Over the course of 600+ hours, the project has evolved into an ongoing study of systems architecture, workflow design, technical documentation, repository organization, and iterative development.
+
+My contribution is not the claim that every line of code was written manually. Instead, this repository represents my work defining architecture, decomposing problems into modules, writing specifications, directing AI-assisted implementation, reviewing outputs, organizing documentation, and maintaining long-term consistency across the project.
+
+The result is an evolving engineering notebook—a record of how a complex technical system can be conceived, structured, validated, and improved over time.
+
 
 ## About This Repository
 
