@@ -14,6 +14,8 @@ EVENTUALLY, Nithingdrone will work as an autonomous trading and monetization pla
 
 This repository documents that ongoing process as an evolving engineering notebook rather than a finished commercial product.
 
+Disclaimer: This is a public first repository and does not contain specific code or show runners or module design.
+
 ---
 
 # Dashboard Preview
