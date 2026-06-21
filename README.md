@@ -10,7 +10,7 @@ The long-term goal of Nithingdrone is to create a private hub where monetizable 
 
 AI is treated throughout the project as an implementation collaborator operating within a human-defined architecture. The emphasis is on systems design, technical communication, documentation-first engineering, long-term maintainability, and iterative refinement rather than claiming manual authorship of every line of code.
 
-Eventually, Nithingdrone will work as an autonomous trading and monetization platform using the decision compression outcomes of first hundreds, then thousands of real-world interactions organized, sorted, and analyzed for relevant historical trends and pattern recognition, enabling better and better growth outcomes.
+EVENTUALLY, Nithingdrone will work as an autonomous trading and monetization platform using the decision compression outcomes of first hundreds, then thousands of real-world interactions organized, sorted, and analyzed for relevant historical trends and pattern recognition, enabling better and better growth outcomes.
 
 This repository documents that ongoing process as an evolving engineering notebook rather than a finished commercial product.
 
