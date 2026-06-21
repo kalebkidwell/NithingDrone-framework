@@ -2,13 +2,15 @@
 
 > **Complex systems become understandable when every responsibility has a place, every decision has context, and every component can stand on its own.**
 
-NithingDrone is an independent AI-assisted systems design project exploring how modular decision architectures can evolve into continuously improving software ecosystems.
+NithingDrone is an independent AI-assisted systems design project exploring how modular systems can work effectively as a unit to sort through complex problems.
 
 Rather than concentrating observation, reasoning, economics, and execution into a single process, the project separates each responsibility into independently understandable layers that can be developed, validated, and refined over time.
 
-The long-term objective is to build an architecture in which specialized capabilities generate measurable value while simultaneously strengthening the decision engine that coordinates them. Every completed execution is intended to become structured evidence that improves future validation, ranking, and decision quality.
+The long-term goal of Nithingdrone is to create a private hub where monetizable bots can be managed and controlled by a modular decision compression engine.
 
 AI is treated throughout the project as an implementation collaborator operating within a human-defined architecture. The emphasis is on systems design, technical communication, documentation-first engineering, long-term maintainability, and iterative refinement rather than claiming manual authorship of every line of code.
+
+Eventually, Nithingdrone will work as an autonomous trading and monetization platform using the decision compression outcomes of first hundreds, then thousands of real-world interactions organized, sorted, and analyzed for relevant historical trends and pattern recognition, enabling better and better growth outcomes.
 
 This repository documents that ongoing process as an evolving engineering notebook rather than a finished commercial product.
 
